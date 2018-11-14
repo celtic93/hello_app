@@ -30,4 +30,5 @@ ActiveRecord::Schema.define(version: 2018_11_14_112527) do
     t.datetime "updated_at", null: false
   end
 
+  add_foreign_key "microposts", "users"
 end
